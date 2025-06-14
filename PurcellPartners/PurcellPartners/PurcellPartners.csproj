@@ -43,11 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IntegerArray.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="ArrayFunctions\IntegerArray.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Validators\ArrayValidator.cs" />
-    <Compile Include="Validators\MissingNumberValidator.cs" />
+    <Compile Include="Validators\IntegerArrayValidator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

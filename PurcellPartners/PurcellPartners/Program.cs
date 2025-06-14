@@ -6,10 +6,16 @@ namespace PurcellPartners
 {
     public class Program
     {
-
+        public static int[] getUserInputArray()
+        {
+            Console.WriteLine("Enter array numbers seperated by comma:");
+            var arrayString = Console.ReadLine();
+            return arrayString.Split(',').Select(ar=>Convert.ToInt32(ar)).ToArray();
+        }
         static void Main(string[] args)
         {
-            IntegerArray myArray = new IntegerArray(new int[] { 0, 2, 4, });
+            int[] userInput = getUserInputArray();
+            IntegerArray myArray = new IntegerArray(userInput);
             IntegerArrayValidator arrayValidator = new IntegerArrayValidator();
 
             try

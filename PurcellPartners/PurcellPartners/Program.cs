@@ -10,11 +10,16 @@ namespace PurcellPartners
         {
             Console.WriteLine("Enter array numbers seperated by comma:");
             var arrayString = Console.ReadLine();
+            if(arrayString.Length==0) 
+            {
+                return null;
+            }
             return arrayString.Split(',').Select(ar=>Convert.ToInt32(ar)).ToArray();
         }
         static void Main(string[] args)
         {
             int[] userInput = getUserInputArray();
+
             IntegerArray myArray = new IntegerArray(userInput);
             IntegerArrayValidator arrayValidator = new IntegerArrayValidator();
 

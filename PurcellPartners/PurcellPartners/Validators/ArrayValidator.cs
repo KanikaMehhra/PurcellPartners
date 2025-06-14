@@ -15,7 +15,7 @@ namespace PurcellPartners.Validators
 
         public void validateArray()
         {
-            if(ArrayToValidate == null) {
+            if(ArrayToValidate == null || ArrayToValidate.Length==0) {
                 Invaliditis.Add("Empty array provided");
             }
         }

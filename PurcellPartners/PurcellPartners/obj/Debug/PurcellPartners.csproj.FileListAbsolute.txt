@@ -1,0 +1,7 @@
+C:\Interview\PurcellPartners\PurcellPartners\PurcellPartners\bin\Debug\PurcellPartners.exe.config
+C:\Interview\PurcellPartners\PurcellPartners\PurcellPartners\bin\Debug\PurcellPartners.exe
+C:\Interview\PurcellPartners\PurcellPartners\PurcellPartners\bin\Debug\PurcellPartners.pdb
+C:\Interview\PurcellPartners\PurcellPartners\PurcellPartners\obj\Debug\PurcellPartners.csproj.AssemblyReference.cache
+C:\Interview\PurcellPartners\PurcellPartners\PurcellPartners\obj\Debug\PurcellPartners.csproj.CoreCompileInputs.cache
+C:\Interview\PurcellPartners\PurcellPartners\PurcellPartners\obj\Debug\PurcellPartners.exe
+C:\Interview\PurcellPartners\PurcellPartners\PurcellPartners\obj\Debug\PurcellPartners.pdb
